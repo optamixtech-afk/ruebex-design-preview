@@ -1,0 +1,1 @@
+import{r as a,$ as l}from"./index-CfrPG_n7.js";function w(t,e,n=!0){const[c,r]=a.useState(null);return a.useEffect(()=>{const o=l(t??null);if(!o||!n){r(null);return}const s=l(e??null),f=s?s.getTime()-Date.now():0,u=()=>r(Math.max(0,Math.round((o.getTime()-(Date.now()+f))/1e3)));u();const i=window.setInterval(u,1e3);return()=>window.clearInterval(i)},[t,e,n]),c}export{w as u};
