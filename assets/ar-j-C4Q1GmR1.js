@@ -1,0 +1,1 @@
+const t="مجلة علمية",n="الصحافة",o="صحفي",s="يحكم على",c="حُكم",u="مبتدئ",j="مبرّر",a="يبرّر",i={journal:t,journalism:n,journalist:o,judge:s,judgement:c,junior:u,justification:j,justify:a};export{i as default,t as journal,n as journalism,o as journalist,s as judge,c as judgement,u as junior,j as justification,a as justify};

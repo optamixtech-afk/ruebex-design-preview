@@ -1,0 +1,1 @@
+const o="jurnal",s="jurnalistika",n="jurnalist",t="baholamoq",a="mulohaza",u="kichik",i="asos",c="asoslamoq",j={journal:o,journalism:s,journalist:n,judge:t,judgement:a,junior:u,justification:i,justify:c};export{j as default,o as journal,s as journalism,n as journalist,t as judge,a as judgement,u as junior,i as justification,c as justify};

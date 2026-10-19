@@ -1,0 +1,1 @@
+const e=new Map,n={get(t){try{return window.sessionStorage.getItem(t)??e.get(t)??null}catch{return e.get(t)??null}},set(t,o){e.set(t,o);try{window.sessionStorage.setItem(t,o)}catch{}},remove(t){e.delete(t);try{window.sessionStorage.removeItem(t)}catch{}}};export{n as o};
